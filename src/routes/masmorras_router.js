@@ -7,4 +7,9 @@ router.get('/', async (req, res) => {
     res.render('pages/masmorras/index')
 })
 
+router.get('/exerc', async (req, res) => {
+
+    res.render('pages/masmorras/battle')
+})
+
 module.exports = router
